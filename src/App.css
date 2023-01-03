@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.quoteBox{
+  background-color: white;
+  width: fit-content;
+  box-shadow: 2px 2px 8px black;
+  padding: 40px 60px;
+  max-width: 700px;
+  object-position: center;
+}
+
+.quote{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.author{
+  font-size: 20px;
+  right: 0;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.button{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px;
+  display: block;
+}
+
+.fa-solid{
+  color: white
+}
